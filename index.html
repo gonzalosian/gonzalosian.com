@@ -241,18 +241,18 @@
           <div class="col-md-4 "></div>
 
           <div class="col-md-4 ">
-            <form action="">
+            <form name="contact" method="POST" data-netlify="true">
               <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Nombre/Empresa</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre/Empresa">
+                <input name="name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre/Empresa">
               </div>
               <div class="mb-3">
                 <label for="exampleFormControlInput2" class="form-label">Email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+                <input name="email" type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
               </div>
               <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Descripción</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
               <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
