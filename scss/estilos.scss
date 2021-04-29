@@ -1,0 +1,130 @@
+html{
+    font-size: 15px;
+}
+
+.experiencia a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    border-bottom: 1px solid;
+}
+.experiencia a:link {
+color: #265301;
+}
+.experiencia a:visited {
+color: #437A16;
+}
+.experiencia a:focus {
+border-bottom: 1px solid;
+background: #BAE498;
+}
+.experiencia a:hover {
+border-bottom: 1px solid;
+background: #CDFEAA;
+}
+.experiencia a:active {
+background: #265301;
+color: #CDFEAA;
+}
+
+
+.bienvenidos{
+    background: url("../images/home2.jpg");
+    background-size: cover;
+    height: 55vh; // editar imagen para que sea vertical
+    overflow: hidden;
+}
+.texto-bienvenida .fab{
+    color: #ff8d00;
+    font-size: 4rem;
+}
+
+.fixed-top{
+    background: #212529d8;
+}
+.navbar-dark .navbar-brand {
+    color: #f9fafb;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #f9fafb;
+    text-align: center;
+    margin: .2rem 0;
+    margin-right: 8px;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;
+    background: #ff8d0061;
+    border-radius: 5px;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    // color: rgba(255,255,255,.75);
+    color: rgb(255,255,255);
+    background: #ff8d0061;
+    border-radius: 5px;
+}
+.texto-bienvenida{
+    color: white;
+    margin-top: 5rem;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #ff8d00;
+    border-color: #ff8d00;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #f8a641fc;
+    border-color: #f8a641fc;
+}
+
+// SOBRE MI
+.sobre-mi{
+    background-color: #ff8d00;
+    color: #fff;
+}
+div.avatar {
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 100px;
+    width: 100px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+
+// EXPERIENCIA
+.experiencia .fas{
+    color: #ff8d00;
+    font-size: 4rem;
+}
+
+// PROYECTOS
+.proyectos{
+    background-color: #424141;
+    color: #fff;
+}
+.proyectos a{
+    display: block;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+.proyectos img{
+    transition: all .3s ease;
+}
+.proyectos a:hover img{
+    transform: scale(1.5);
+}
+
+//FOOTER
+.footer{
+    color: #fff;
+    background-color: #222222;
+}
+
+// VARIOS
+.mayuscula{
+    text-transform: uppercase;
+}
